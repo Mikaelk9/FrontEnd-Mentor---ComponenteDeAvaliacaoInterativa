@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Overpass", sans-serif;
+}
+
+
+.attribution { font-size: 12px; text-align: center; font-weight: 700; }
+.attribution a { color: hsl(25, 97%, 53%); font-size: 13px;}
