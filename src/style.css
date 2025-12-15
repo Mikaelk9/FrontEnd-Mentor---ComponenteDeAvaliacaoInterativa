@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,6 +6,141 @@
     font-family: "Overpass", sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
 
-.attribution { font-size: 12px; text-align: center; font-weight: 700; }
-.attribution a { color: hsl(25, 97%, 53%); font-size: 13px;}
+/* card */
+.card {
+    margin: auto 1.5rem;
+    padding: 30px 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(212, 18%, 21%);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.content h2 {
+    color: hsl(0, 100%, 100%);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+}
+
+
+/* buttons */
+.buttonNumbers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.buttonNumbers button {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(212, 18%, 21%);
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+}
+
+button.active {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+
+.buttonSubmit {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: hsl(213, 19%, 18%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.attribution {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.attribution a {
+    color: hsl(25, 97%, 53%);
+    font-size: 13px;
+}
+
+
+
+@media screen and (min-width:800px) {
+
+
+
+    .card {
+        max-width: 500px;
+    }
+
+    .content h2 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 19px;
+    }
+
+    .buttonNumbers {
+        margin-bottom: 2rem;
+        
+    }
+
+    .buttonNumbers button {
+        height: 60px;
+        width: 60px;
+        font-size: 17px;
+    }
+    .buttonSubmit{
+        font-size:18px;
+    }
+
+
+    /*Buttons State*/
+    .buttonNumbers button,
+    .buttonSubmit {
+        cursor: pointer;
+    }
+
+    .buttonNumbers button:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(213, 19%, 18%);
+    }
+
+    .buttonSubmit:hover {
+        background-color: hsl(0, 100%, 100%);
+    }
+}
