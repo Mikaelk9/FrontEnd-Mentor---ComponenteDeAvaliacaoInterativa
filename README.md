@@ -31,7 +31,7 @@ Os usuários devem ser capazes de:
 ![](./preview.jpg)
 
 ### Links
-- URL do site ao vivo: [URL do site ao vivo aqui](*)
+- URL do site ao vivo: [URL do site ao vivo aqui](https://front-end-mentor-componente-de-aval.vercel.app/)
 
 ## Meu Processo
 
