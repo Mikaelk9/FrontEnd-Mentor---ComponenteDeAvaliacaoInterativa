@@ -38,7 +38,7 @@ Os usuários devem ser capazes de:
 ### Construído com
 
 - HTML5 – Estrutura semântica e organização do conteúdo.
-- CSS3 – Estilização, design responsivo e layout em grid.
+- CSS3 – Estilização, design responsivo e layout.
 - JavaScript (Vanilla JS) – Manipulação dinâmica dos dados e interatividade dos botões.
 - Google Fonts (Overpass) – Fonte personalizada para a tipografia do projeto.
 - Frontend Mentor – Desafio base utilizado como referência para o desenvolvimento.
